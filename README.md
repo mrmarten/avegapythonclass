@@ -1,2 +1,2 @@
-# avega python class
+# Avega Python Class
 Python exercise files
