@@ -8,6 +8,13 @@ program does not need to read any input from the user.
 
 Start coding below this line:'''
 
+print("Ben Stephenson")
+print("Department of Computer Science")
+print("University of Calgary")
+print("2500 University Drive NW")
+print("Calgary, Alberta T2N 1N4")
+print("Canada")
+
 
 '''
 Exercise 2: Hello Person
@@ -98,39 +105,6 @@ Exercise 10: Season from Month and Day
 The year is divided into four seasons: spring, summer, fall (or autumn) and winter.
 While the exact dates that the seasons change vary a little bit from year to year
 Start coding below this line:'''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 '''

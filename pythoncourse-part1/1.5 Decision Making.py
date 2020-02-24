@@ -86,24 +86,21 @@ The following program includes a nested if statement.
 '''
 # Read a number from the user
 num = float(input("Enter a number (statements): "))
-# Store the appropriate message in result
+
+
 if num > 0:
-    # Determine what adjective should be used to describe the number
     adjective = " "
     if num >= 1000000:
         adjective = " really big "
     elif num >= 1000:
         adjective = " big "
+    result = "That’s a" + adjective + "positive number"
+    elif num < 0:
+        result = "That’s a negative number"
+    else:
+        result = "That’s zero"
 
-# Store the message for positive numbers including the appropriate adjective
-
-        result = "That’s a" + adjective + "positive number"
-elif num < 0:
-    result = "That’s a negative number"
-else:
-    result = "That’s zero"
-# Display the message
-print(result)
+    print(result)
 
 
 '''

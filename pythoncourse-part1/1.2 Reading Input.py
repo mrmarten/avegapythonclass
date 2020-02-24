@@ -17,5 +17,3 @@ print("Hello!")
 # Multiple values can be printed with one function call by providing several arguments
 # to the print function. The additional arguments are separated by commas.
 # For example:
-print(f"When x is", x, "the value of y is", y)
-print("The product of", x, "and", y, "is", x * y)
