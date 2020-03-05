@@ -1,3 +1,27 @@
+
+# A brief illustrative example
+
+# In the hope it might help a little, here's a simple example I used to understand the difference between a variable declared inside a class,
+# and a variable declared inside an __init__ function:
+
+
+class MyClass(object):
+    i = 123
+
+    def __init__(self):
+        self.i = 456
+
+
+a = MyClass()
+print(a.i)
+print(MyClass.i)
+
+# Output:
+
+# 456
+# 123
+
+
 '''
 Now we’ll learn what object-oriented programming is and how we
 can write our own classes and create objects from them. 
