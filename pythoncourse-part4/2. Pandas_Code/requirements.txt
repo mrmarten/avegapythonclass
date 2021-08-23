@@ -2,7 +2,7 @@ graphviz==0.10.1
 imbalanced-learn==0.4.3
 imblearn==0.0
 jupyter==1.0.0
-jupyterlab==0.35.0
+jupyterlab==1.2.21
 matplotlib==3.0.2
 numpy==1.15.2
 pandas==0.23.4
